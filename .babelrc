@@ -1,0 +1,6 @@
+//.babelrc tells babel what it needs to transpire down to
+//Babel is a loader inside webpack what converts js files into older js files
+
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
